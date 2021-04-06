@@ -5,17 +5,19 @@
 
 .logo
 {
-    color: #F7C207;
+    color: #fff;
     padding: 15px;
-    margin-right: 130px;
-    margin-left: 70px;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    margin-right: 6vw;
+    margin-left: 16vw;
 }
 
 .menu
 {
     width: 100%;
     height: 60px;
-    background-color: #0873C3;
+    background-color: #36913B;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -40,7 +42,7 @@
     display: block;
     text-decoration: none;
     text-align: center;
-    background-color: #0873C3;
+    background-color: #36913B;
     color: white;
 }
 
@@ -57,12 +59,12 @@
 
 .menu a:hover
 {
-    background-color: #0255a5;
+    background-color: #286B2B;
 }
 
 .menu ul ul li a
 {
-    background-color: #1669b9;
+    background-color: #338A37;
 }
 
 .menu ul ul li
@@ -72,12 +74,12 @@
 
 .conteudo
 {
-    width: 146px;
+    
 }
 
 .tutoriais
 {
-    width: 202px;
+    
 }
 
 .contato
@@ -87,7 +89,7 @@
 
 label[for = "bt_menu"]
 {
-    background-color: #0873C3;
+    background-color: #36913B;
     color: #fff;
     padding: 5px;
     size: 50px;
@@ -125,7 +127,7 @@ label[for = "bt_menu"]
 
     label[for = "bt_menu"]
     {
-        color: #F7C207;
+        color: #fff;
         font-size: 15px;
         padding: 10px;
         display: block;
