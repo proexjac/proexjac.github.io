@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo
+{
+    color: #fff;
+    padding: 15px;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    margin-right: 6vw;
+    margin-left: 16vw;
+}
+
+.menu
+{
+    width: 100%;
+    height: 60px;
+    background-color: #36913B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+
+.menu ul
+{
+    list-style: none;
+    position: relative;
+}
+
+.menu ul li
+{
+    width: relative;
+    float: left;
+}
+
+.menu a
+{
+    padding: 21px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #36913B;
+    color: white;
+}
+
+.menu ul ul
+{
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul
+{
+    visibility: visible;
+}
+
+.menu a:hover
+{
+    background-color: #286B2B;
+}
+
+.menu ul ul li a
+{
+    background-color: #338A37;
+}
+
+.menu ul ul li
+{
+    float: none;
+}
+
+.conteudo
+{
+    
+}
+
+.tutoriais
+{
+    
+}
+
+.contato
+{
+    width: relative;
+}
+
+label[for = "bt_menu"]
+{
+    background-color: #36913B;
+    color: #fff;
+    padding: 5px;
+    size: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#bt_menu
+{
+    display: none;
+}
+
+@media(max-width: 1175px)
+{
+    .logo
+    {
+        display: none;
+    }
+
+    .conteudo
+    {
+        width: 100%;
+    }
+
+    .tutoriais
+    {
+        width: 100%;
+    }
+
+    .contato
+    {
+        width: 100%;
+    }
+
+    label[for = "bt_menu"]
+    {
+        color: #fff;
+        font-size: 15px;
+        padding: 10px;
+        display: block;
+        text-align: center;
+    }
+
+    .menu
+    {
+        margin-left: -110%;
+        transition: all .3s;
+    }
+
+    #bt_menu:checked ~ .menu
+    {
+        margin-left: 0;
+    }
+
+    .menu ul li
+    {
+        width: 100%;
+        float: none;
+    }
+
+    .menu ul ul
+    {
+        position: static;
+        overflow: hidden;
+        max-height: 0;
+        transition: all .3s;
+    }
+
+    .menu ul li:hover ul
+    {
+        height: auto;
+        max-height: 200px;
+    }
+}
