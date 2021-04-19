@@ -16,9 +16,9 @@
 .menu
 {
     width: 100%;
-    height: 60px;
-    background-color: #36913B;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 61px;
+    background-color: #0A0A0A;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
     font-weight: 600;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
@@ -42,7 +42,7 @@
     display: block;
     text-decoration: none;
     text-align: center;
-    background-color: #36913B;
+    background-color: #0A0A0A;
     color: white;
 }
 
@@ -59,12 +59,12 @@
 
 .menu a:hover
 {
-    background-color: #286B2B;
+    background-color: #3B3B3B;
 }
 
 .menu ul ul li a
 {
-    background-color: #338A37;
+    background-color: #1C1C1C;
 }
 
 .menu ul ul li
@@ -89,7 +89,7 @@
 
 label[for = "bt_menu"]
 {
-    background-color: #36913B;
+    background-color: #0A0A0A;
     color: #fff;
     padding: 5px;
     size: 50px;
@@ -105,8 +105,10 @@ label[for = "bt_menu"]
 
 .main
 {
-    margin: 40px;
+    margin: 2vw;
     background-color: white;
+    border-radius: 0.3%;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .body
@@ -118,21 +120,22 @@ h2
 {
     padding: 10px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h3
 {
     padding: 10px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img
 {
+    
     margin: 2vw;
+    margin-top: 1.2vw;
     max-width: 91vw;
     object-fit: contain;
+    border-radius: 0.3%;
 }
 
 @media(max-width: 1175px)
