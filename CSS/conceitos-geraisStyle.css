@@ -15,13 +15,15 @@
 
 .menu
 {
+    margin-top: -100px;
     width: 100%;
     height: 61px;
-    background-color: #080808;
+    background-color: #0A0A0A;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
     font-weight: 600;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+    position: fixed;
 }
 
 .menu ul
@@ -42,7 +44,7 @@
     display: block;
     text-decoration: none;
     text-align: center;
-    background-color: #080808;
+    background-color: #0A0A0A;
     color: white;
 }
 
@@ -89,7 +91,7 @@
 
 label[for = "bt_menu"]
 {
-    background-color: #080808;
+    background-color: #0A0A0A;
     color: #fff;
     padding: 5px;
     size: 50px;
@@ -106,6 +108,7 @@ label[for = "bt_menu"]
 .main
 {
     margin: 2vw;
+    margin-top: 100px;
     background-color: white;
     border-radius: 0.3%;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -130,7 +133,9 @@ h3
 
 img
 {
+    
     margin: 2vw;
+    margin-top: 1.2vw;
     max-width: 91vw;
     object-fit: contain;
     border-radius: 0.3%;
