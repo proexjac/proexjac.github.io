@@ -174,8 +174,10 @@ img
 
     .menu
     {
+        margin-top: 0px;
         margin-left: -110%;
         transition: all .3s;
+        position: relative;
     }
 
     #bt_menu:checked ~ .menu
